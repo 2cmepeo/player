@@ -1,0 +1,404 @@
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+window.onload = function() { startSearch(decodeURI(getUrlVars()["search"])) };document.querySelector('.search_field').addEventListener('keydown', function(e) {
+    if (e.keyCode === 13) { someFunc();}
+  });document.querySelector(".start_search").onclick = function(event) {someFunc();};var fruits = (function(){
+    /* ` 
+{1-Mix-Radio-Trance||1 Mix Radio Trance||1Mix Radio - это цифровая радиостанция, которая фокусируется на жанрах электронной музыки, включая транс. У них есть специальный канал для транса под названием &quot;1Mix Radio Trance&quot;, где они играют различные поджанры транса, такие как прогрессивный транс, возвышающий транс и псайтранс. На радиостанции представлены миксы и живые сеты как известных, так и начинающих трансовых диджеев со всего мира. 1Mix Radio Trance стремится предоставить платформу для любителей транса, позволяющую открывать для себя новую музыку и общаться с мировым трансовым сообществом.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s92147d.png},{181fm-techno-club-radio||181.FM Techno Club||181.FM Интернет-радио - Лучший выбор для радио. Ваш образ жизни, Ваша музыка
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s90494d.png},{1FM-Amsterdam-Trance||1.FM Amsterdam Trance||1.FM Amsterdam Trance - онлайн-радиостанция, специализирующаяся на трансовой музыке. Она базируется в Амстердаме, Нидерланды, и играет различные поджанры транса, включая прогрессивный транс, возвышающий транс и вокальный транс. На радиостанции представлены как хорошо известные транс-треки, так и более новые релизы, что позволяет слушателям быть в курсе последних событий на сцене транс-музыки. Благодаря высококачественному потоковому аудио и специализированным программам транс-музыки, 1.FM Amsterdam Trance предлагает поклонникам транса радио 24/7, наполненное энергичной музыкой, вызывающей эйфорию.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s139915d.png},{1fm-deep-techno-tech-house||1.FM- Deep Techno &amp; Tech House||Лучшие шоу в стиле техно и Тек-хаус, подкасты от ведущих имен в индустрии электронного андеграунда
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s306579/images/logod.png},{90s90s-techno-radio||90s90s Techno||90-е были великой эпохой андеграундных клубов, когда ди-джеи еще не были главными звездами хит-парадов. В 90-х этот звук стал настоящим открытием: музыка, которую не играло ни одно радио в то время, когда Детройт и Берлин задавали ритм танцплощадкам на складах. Здесь количество ударов в минуту определяется списком воспроизведения, а не припевом. Рейв был демократичным, на танцполе просто веселились все вместе: рейв начинался. Это радио празднует рождение техно, быстрого и жесткого.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s306625/images/logod.png},{a-state-of-trance||A State of Trance||A State of Trance (ASOT) радио - это интернет-радиостанция, которая передает музыку в жанре транс, а также шоу и эпизоды популярного радиошоу &quot;A State of Trance&quot; Армина ван Бюрена.На ASOT радио вы можете слушать самые новые треки и миксы в жанре транс от различных исполнителей со всего мира. Радиостанция транслирует как ранее записанные шоу, так и живые эфиры, давая слушателям возможность насладиться музыкой в режиме реального времени.ASOT радио также предлагает возможность слушать эпизоды популярного радиошоу &quot;A State of Trance&quot; Армина ван Бюрена. Эти эпизоды содержат миксы и треки в жанре транс от лучших исполнителей, а также эксклюзивные премьеры и интервью с диджеями и продюсерами транс-музыки.ASOT радио является платформой для любителей транс-музыки, предоставляющей доступ к самым новым трекам, миксам и шоу в этом жанре. Это отличный способ быть в курсе последних тенденций в мире транс-музыки и наслаждаться качественной музыкой от лучших исполнителей.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s0d.png},{dance-attack-best-edm-radio||Dance Attack FM - The Best EDM||интернет-радиостанция, специализирующаяся на музыке EDM (Electronic Dance Music). На Dance Attack FM вы можете наслаждаться лучшей электронной танцевальной музыкой, включая такие жанры, как хаус, транс, техно, дабстеп, EDM и многие другие. Радиостанция транслирует как популярные треки от известных артистов, так и новинки от молодых талантов в области EDM.Dance Attack FM предлагает разнообразные шоу и миксы, которые представляют различные поджанры EDM. Вы можете услышать горячие миксы от диджеев и продюсеров, эксклюзивные премьеры треков и интервью с ведущими именами в индустрии EDM.Эта радиостанция является идеальным выбором для всех любителей электронной танцевальной музыки, предоставляя доступ к самым актуальным и захватывающим трекам в жанре EDM. Dance Attack FM дает возможность ощутить энергию и вибрацию этой музыки, создавая настроение для танцев и позитивных эмоций.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s193076/images/logod.jpg},{dance-classics-radio||Dance Classics||The Internet's Number 1 Dance Classics Station, playing all the classic Dance/Trance from the 90's and 00's Broadcasting live from Pontypool, South Wales
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s275049/images/logod.png},{Dancefmlive-Trance||Dancefmlive Trance||Dancefmlive Trance радио - это интернет-радиостанция, специализирующаяся на транс музыке. На Dancefmlive Trance радио вы можете наслаждаться самыми лучшими треками и миксами в жанре транс от известных диджеев и продюсеров со всего мира. Радиостанция предлагает широкий спектр поджанров транс музыки, таких как прогрессивный транс, аплифтинг транс, психоделический транс и многие другие.Dancefmlive Trance радио также транслирует различные шоу и программы, посвященные транс музыке. Вы можете услышать эксклюзивные миксы от ведущих диджеев транс сцены, а также интервью и специальные выпуски, посвященные различным тематикам в мире транс музыки.Эта радиостанция создана для любителей транс музыки, предоставляя возможность наслаждаться самыми эмоциональными, мелодичными и красивыми треками этого жанра. Dancefmlive Trance радио создает атмосферу, которая погружает вас в глубины транс музыки и помогает провести время с удовольствием и вдохновением.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s304635/images/logod.jpg},{dieselfm-techno-channel||Diesel.FM Techno||Diesel.FM Global Techno Radio 24/7
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s265684d.png},{dieselfm-trance-progressive||Diesel.FM Trance &amp; Progressive||Дизель.FM Trance &amp; Progressive radio - это онлайн-радиостанция, которая воспроизводит разнообразную музыку в стиле транс и прогрессив. На них представлены живые диджейские сеты, а также предварительно записанные миксы от артистов со всего мира. Радиостанция стремится предоставить платформу как для признанных, так и для начинающих исполнителей в жанрах транс и прогрессив. Слушатели могут подключаться к радиостанции 24/7, чтобы наслаждаться последними треками и миксами в этом жанре.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s170614d.png},{eight-radio||Eight||Восемь. это независимая интернет- и наземная радиостанция, которая вещает 24/7 на частоте 100,8 FM в Порто-Веккьо и Бонифачо, представляя лучший выбор электронной музыки от избранных диджеев и лейблов, базирующихся на Корсике и во всем мире.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s193294/images/logod.jpg},{ETN-FM-Trance||ETN.FM Trance||ETN.FM Trance радио является одной из самых популярных онлайн-радиостанций, посвященных транс музыке. Они транслируют множество различных поджанров транса, включая прогрессив, аплифтинг, психоделический и другие. ETN.FM Trance радио известно своим качественным звуком и множеством прямых эфиров от известных диджеев и продюсеров. Они также организуют специальные эфиры на фестивалях и событиях по всему миру. ETN.FM Trance радио доступно для прослушивания через их официальный сайт или приложение для мобильных устройств.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s51007d.png},{fg-techno-radio||FG TECHNO||FG TECHNO - новые тенденции в области электроники, с программированием на основе глубоких технологий и открытий
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s323301/images/logod.png},{fm-985-vocal-trance||FM 98.5 of Vocal Trance||Trance is one of the most popular and beloved forms of music around the world, but it is not well known in the US. How popular? One weekly trance radio show has 30 million listeners a week (making it the most listened-to radio show in the world), and another I listen to has 21 million listeners a week. It's that popular! Despite the genre's relative obscurity in the US, one originally&amp;still-partly-trance DJ (FM 98.5 ) has over 4.2 million fans on Facebook &amp; there an internet radio station that plays his music 24 hours a day 7 days a week. DJs have had over a million people in attendance at single concerts in such places as Russiaan, and the Olympic Committee chose a (who then did only trance) to do all the music for the opening ceremonies for the Olympics marking the 100-year anniversary of the Olympics. To quote a website that's very critical of trance in general, &quot;Trance is the most emotional genre. It can make you cry, make you shout, make you cheer, and make you celebrate absolutely nothing of substance except pure ecstatic bliss
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s161500d.png},{fm-tance-103||FM Trance 103.3||Добро пожаловать на радио FM Trance 103.3! Мы специализируемся на транс-музыке, которая является одним из самых популярных жанров электронной музыки. Наши диджеи подбирают самые новые и лучшие треки, чтобы вы могли наслаждаться качественной музыкой в любое время дня или ночи. Мы также предлагаем различные программы и миксы от талантливых транс-диджеев со всего мира. Настройтесь на FM Trance 103.3 и окунитесь в мир энергичной и вдохновляющей музыки!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s110509/images/logod.png},{fnoob-techno-radio||Fnoob Techno||Мы - глобальное сообщество, посвященное андеграундной техно-музыке, ее поклонникам и культурам, которые они охватывают. Мы предоставляем всеобщий доступ к новаторскому техно 24 часа в сутки, 7 дней в неделю, 365 дней в году.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s130595/images/logod.png},{ganorium-trance-radio||Ganorium||Your source for quality sound: Uplifting, Melodic, Vocal and Progressive. GANORIUM Radio is the premium station for first-class trance music from Germany. Tune in 24/7 and start floating away!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s295590/images/logod.png},{goa-trance-alternate||Goa Trance Alternate||goa psychedelic trance / free goa mp3 download / psychedelic art gallery / goa forum / goa party
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s117844d.png},{hirschmilch-psytrance-radio||Hirschmilch Psytrance||This channel takes you on a journey around the world of Psychedelic and Goa Trance presented by hirschmilch.de
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s144570/images/logod.jpg},{housetech-radio||HouseTech||На протяжении всего пути HouseTech Radio мы привлекали андеграундных хаус- и техно-диджеев, продюсеров, промоутеров и, самое главное, друзей со всего мира, которых объединяет одна общая черта - любовь к андеграундной хаус- и техно-музыке во всех ее проявлениях. Нам также повезло, что мы создали отличную команду, которая продолжает поддерживать дух HouseTech, продвигая ди-джеев и продюсеров. Идея этой радиостанции и растущего онлайн-сообщества заключается в том, чтобы предоставить профессиональную и веселую платформу для всех ди-джеев, на которой они могут играть и демонстрировать свое звучание.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s256502/images/logod.jpg},{in-progress-radio||In Progress||In Progress Radio - голландская интернет-радиостанция, специализирующаяся на техно. и Techhouse
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s196389/images/logod.png},{minimal-mix-madio||Minimal Mix||Если вам нравится электронная музыка (minimal techno, tech house, deep dub), добро пожаловать на наш сайт. Слушайте наши миксы 24 часа в сутки. Присоединяйтесь к нашей группе и не стесняйтесь делиться своим мнением.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s151855d.png},{minimal-techno-on-mixlive-radio||MixLive Minimal &amp; Techno||MixLive.ie запущен в 2010 году в качестве тестовой платформы для демонстрации различных потоковых технологий, которые мы используем для трансляции аудио и видео в прямом эфире в Интернете. Наш первый канал &quot;Ambient Lounge&quot; с тех пор охватил 1000 слушателей по всему миру. Это вдохновило нас расширить список наших каналов и предложить более широкий выбор музыки со всего мира. Музыкальные каналы с прямой трансляцией 24/7. Добавьте свой собственный канал на MixLive.ie или отправьте свои музыкальные промо-ролики на submit Promo Radio. Заинтересованы в трансляции на MixLive или создании собственного канала
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s212095d.png},{musiclovers-fm||MusicloversFM||Классная музыка, работающий с тобой - с musicloversFM! ваш максимальный удар по платформе - даже на ходу!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s273640/images/logod.png},{play-trance-radio||PlayTrance||This is the Main Channel of the first spanish radio-television station and reference of Trance music. Join to the leader broadcaster and collective on Spain and Latin America. AAC-LC &amp; HE-AAC 24 hours non-stop Trance Music from Spain.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s153387/images/logod.png},{Prysm-Trance||Prysm Trance||Prysm Radio - Trance Music Online
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s258363/images/logod.png},{psystation-acid-techno||PsyStation - Acid Techno 303||С конца 80-х и до наших дней визжащие синтезаторы звучат повсюду
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+
+||https://cdn-radiotime-logos.tunein.com/s280266d.png},{psystation-minimal-techno||PsyStation - Minimal Techno||Глубокий андеграунд и минимализм
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s286493d.png},{psystation-progressive-trance||PsyStation - Progressive Psy Trance||Жанр может быть расслабленным и беззаботным или энергичным и захватывающим – никогда не знаешь, что привлечет внимание всего мира! Прогрессивный психоделический транс, или Progressive Psychedelic Trance, появился в середине 2000-х годов в Европе и быстро стал одним из самых популярных поджанров психоделического транса. В отличие от других видов пситранса, которые фокусируются на определенном звуке, progressive psy фокусируется на груве и на том, как он прогрессирует с течением времени. Это делает музыку в жанре более разнообразной. Прогрессивный псайтранс обычно имеет более медленный темп (125-150 ударов в минуту) и состоит из сложных ритмов, многослойных мелодий и тщательно продуманных звуковых ландшафтов. Музыка обычно имеет множество вариаций, которые часто имеют разные разбивки и нарастания. Многие продюсеры также добавляют элементы других жанров, таких как техно, хаус или эмбиент, для создания уникальных гибридных стилей. В результате может быть довольно сложно выделить один звук, который определяет жанр. Лучшие прогрессивные исполнители псайтранса и...
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s263172d.png},{puls-radio-2000||PulsRadio 2000||The Best of the Dance and Trance 2000's. The first dance webradio
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s259912d.png},{puls-radio-dance||PulsRadio Dance||Dance Music Online 24/7
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s112047d.png},{Puls-Radio-Trance||Puls' Radio Trance||Trance Music Online 24/7
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s54299d.png},{radio-ftb-trance||FTB Trance||Radio FTB jest społecznością skupioną wokół muzyki. Bardzo prężnie rozwijającą się i posiadającą bajecznie dużo do zaoferowania odwiedzającym Naszą stronę internetową. Radio FTB to pasja, kontakty, wiedza muzyczna, doświadczenie dj'ów oraz prezenterów aktywnych zawodowo. Słuchacze radia spędzają na www.radioftb.net.pl kilka godzin dziennie, ponieważ każdy znajdzie tutaj coś przyjemnego dla siebie.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s54504d.png},{radio-partypl-trance-channel||Party.pl Trance Channel||Radio Party Kanal Trance Channel
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s304439/images/logod.jpg},{radio-partypl-vocal-trance||Party.pl Vocal Trance||RadioParty.pl Kanal Vocal Trance
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s53933/images/logod.jpg},{radio-schizoid-psychedelic-trance||Schizoid Psychedelic Trance||Radio Schizoid is an independent online radio station run by two retards. We are non-commercial ( no crappy ads, no jackass RJ's, but simply the best psychedelic music) and our sole intention is to spread good music.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s87991d.png},{radiozora-trance-channel||radiOzora Trance||Trance Music online radio. Non Stop Trance Music from around the world.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s201024d.png},{rautemusik-techno-radio||RauteMusik TECHNO||Вы любите электронные фестивали? rm.fm/techno это будет фестиваль нового поколения ангесагтестной техно-музыки. Духовой оркестр и рейв-музыка вживую - диджеи! Вы любите электронные фестивали? rm.fm/techno представляем вам новое поколение самой горячей техно-музыки. Почувствуйте басы и рейв вместе с нашими живыми диджеями!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s322194/images/logod.jpg},{RauteMusik-TRANCE||RauteMusik TRANCE||Die besten Trance Mixe und Vocaltrance Sounds rund um die Uhr und ohne Unterbrechung. Ein Muss für alle Trance und Uplifting Fans. Das ist RauteMusik.FM Trance für dich! The best trance mixes and vocal trance sounds 24/7 and without interruption. A must have for all trance and uplifting fans - on rm.fm Trance only.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s161194/images/logod.jpg},{sunshine-live-techno||SUNSHINE LIVE Techno||Техно музыка 24/7
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s326116/images/logod.jpg},{sunshine-live-techno-radio||SUNSHINE LIVE - Techno||Электронная музыка, 24 часа в сутки, делает программу sunshine live особенной. В программе sunshine live вы найдете выступления ди-джеев. Битбастер SUNSHINE LIVE. Ваши уши, наши ритмы - и шанс заработать деньги!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s324213/images/logod.png},{sunshine-live-vocal-trance||SUNSHINE LIVE - Vocal Trance||Trance, Vocal Trance online 24/7
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s324215/images/logod.jpg},{techno-fm-radio||Techno.FM||Канал Techno - это интернет-аудиопоток в режиме 24/7, который с 2006 года транслирует мировое качественное техно во всех его разнообразных формах. Это один из нескольких различных электронных каналов, предлагаемых Techno.FM. Цель канала - показывать качественный живой и предварительно записанный контент от признанных артистов, а также талантливых подающих надежды ди-джеев и продюсеров, от более мейнстримного звучания до более андеграундного. Мы с нетерпением ждем сотрудничества с любыми единомышленниками из любой точки планеты. Большое спасибо всем артистам, которые внесли свой вклад в контент канала.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s111620d.png},{techno-live-sets-radio||Techno Live Sets||Слушайте техно-музыку 365 дней в году. Слушайте полные сеты лучших техно-диджеев мира.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s265712/images/logod.png},{techno-underground-radio||Techno Underground||Кто такой Уолт Харт Рэйвен? Серьезная проблема! Техно-андеграунд в Массачусетском технологическом институте, объединяющий дух берлинских клубов. Свободное время для минимализма, Детройтского техно и Шранца во всем мире! Jeden 2. und 4. Samstag im Monat übernimmt Рейв-Ургестайн Танитс мит сейнер Микс-Шоу TNT das Kommando. Хочешь порезвиться по полной? Ну, ладно! Techno Underground приведет вас в самые крутые клубы Берлина. Приготовьтесь к vor Minimal, Detroit Techno и Schranz в лучшем виде! Каждую вторую и четвертую субботу месяца вы можете послушать гения рейва Танит и его шоу на TNT.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s280926d.png},{techno-zagreb-radio||Techno Zagreb||Прослушивание радио остается интимным и приятным времяпрепровождением даже в эпоху избытка, когда любое музыкальное произведение, которое вы когда-либо могли захотеть, легко доступно у вас под рукой. Просто есть что–то по–настоящему приятное - даже общее - в осознании того, что ты слушаешь что-то, на что одновременно настроены другие люди. Это ощущение, которое невозможно воспроизвести никаким количеством скачиваний. Интернет сделал этот опыт еще более транснациональным, чем когда-либо прежде, поскольку практически каждая радиостанция, которую стоит послушать, доступна по всему миру, просто загрузив приложение для смартфона или посетив веб-сайт соответствующей станции. В то время как рост онлайн-радио привел к росту интереса к “настройке”, есть много станций, о которых вы, возможно, даже не знаете, которые выделяют завораживающие звуки и способствуют ощущению общности. Одна из них - Radio Techno Zagreb. Прогрессивная радиостанция, специализирующаяся на электронной и клубной музыке, Radio Techno Zagreb
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s211447/images/logod.png},{technolovers-dark-techno||Technolovers - DARK TECHNO||Танцевальная и электронная музыка
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s310343/images/logod.jpg},{technolovers-radio||Technolovers||Слушайте самую разнообразную электронную музыку онлайн - без аккаунта - без модерации! Техно, танец, хэндсап, транс и десятки поджанров погрузят вас в мир электронной музыки и не оставят вас равнодушными!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s133540d.png},{technolovers-trance||Technolovers TRANCE||Technolovers.fm - Elektronische Sounds rund um die Uhr. 24/7 die feinste ausgewählte Musik von 128 bis 140 BPM. Gönn dir unseren Trance Channel. Technolovers - Electronic sounds around the clock. 24/7 the finest selected music from 128 to 140 BPM. Switch on and enjoy our Trance Channel.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s310163/images/logod.jpg},{technolovers-vocal-trance-radio||Technolovers VOCAL TRANCE||Technolovers.fm - Elektronische Sounds rund um die Uhr. 24/7 die feinste ausgewählte Musik von 125 bis 140 BPM. Gönn dir unseren Minimal Channel. Technolovers - Electronic sounds around the clock. 24/7 the finest selected music from 125 to 140 BPM. Switch on and enjoy our minimal House Channel.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s310162/images/logod.jpg},{toronto-global-radio-trance||Toronto Global  - Trance||Toronto Global Radio broadcasts quality streams from Toronto, Canada. This Trance Channel features new and classic Trance music.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s241575d.png},{trance-12-radio||Trance 12||Trance Music All Time online 24/7
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s323461/images/logod.jpg},{Trance-Athena||Trance Athena||Trance Athena brings you the latest and the greatest in Euphoric, Uplifting and Progressive Psy Trance. Broadcasting since 2010, with carefully selected full melodies made for the ultimate Journey
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s196811/images/logod.jpg},{trance-pulse-dublin||TrancePulse Dublin||TrancePulse Dublin is an Independent Radio Station playing Trance &amp; Dance music, from the past &amp; present. Online 24 hours a day.
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s124826/images/logod.png},{TranceBase-FM||TranceBase.FM||24 Stunden am Tag die verschiedenen Facetten der Trance-Musik: (Tech Trance, Uplifting Trance, Vocal Trance)
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-profiles.tunein.com/s96662/images/logod.jpg},{trancelovers-radio||Trancelovers||Trancelovers ist dein Radiosender für Trance und Vocal Trance!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s185522d.png},{WRK-PSY-Trance-Radio||WRK PSY Trance||PSY / GOA Trance Music Non Stop!!
+    
+Vol.-
+    Play
+    Stop
+Vol.+
+||https://cdn-radiotime-logos.tunein.com/s225138d.png},
+     ` */
+  }).toString();
+  fruits = (fruits.slice(fruits.indexOf('/* ')+4, fruits.lastIndexOf(' */')).replace(new RegExp("\\r?\\n", "g"), "")).split("},{");
+var found=0;
+function someFunc(){
+document.getElementById('search_insert').innerHTML = "";
+var search_field=document.querySelector('.search_field').value;
+if(search_field!=""){startSearch(search_field);}else{alert("пустое поле"); return;}
+}
+var textarr=[];
+var textarrplus=[];
+var starttext="";function startSearch(text){
+if(text!=""){
+var fruit=[];
+textarrplus=text.toLowerCase().split("++");textL="";
+ if (history.pushState) {
+        var baseUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        var newUrl = baseUrl + '?search='+text;
+        history.pushState(null, null, newUrl);
+    }
+    else {
+        console.warn('History API не поддерживается');
+    };for (var pos in textarrplus) {
+textarr=textarrplus[pos].toLowerCase().split(/\s+/);
+for (var item in fruits) {
+textL=fruits[item].toLowerCase();
+if (textarr.every(v => ~textL.indexOf(v))){
+fruit=fruits[item].split("||");
+document.getElementById('search_insert').insertAdjacentHTML('afterbegin',' <tw class="col-4 simpleCart_shelfItem"><a   href="'+fruit[0]+'.html"><div class = "onclean" ><span class="item_Thumb_"><img src="'+fruit[3]+'"  draggable ="false"/></span></div></a><a   href="'+fruit[0]+'.html"><span class="item_caption">'+fruit[1]+'</span><h6 class="item_name">'+fruit[0]+'</h6> </a><span class="item_text">'+fruit[2]+'</span></tw>' );found=found+1;}}};};if(found==0){alert("ничего не найдено");}
+found=0;
+}; 
+
+ 
+
+
